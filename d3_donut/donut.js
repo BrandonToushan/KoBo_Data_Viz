@@ -26,8 +26,8 @@ var svg = d3.select('#donut')
   var data = {a: 9, b: 20, c:30, d:8, e:12}
 
   //defining color palette (KoBo default)
-  var colors = ["#5e88d3","#fd6f96","#fbdd83","#8eeb55","#73d6ff","#fecb72","#7197f6","#56ecc7"]
-
+  var colors = ['#479FF6', '#6BCAD6', '#F86678', '#4B4E5E','#7B7F97','#ACAFC5','#D3D5E2','#EBEDF4']
+  
   //defining color scale
   var color = d3.scaleOrdinal()
     .range(colors)
