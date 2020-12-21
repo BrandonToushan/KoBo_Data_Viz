@@ -31,8 +31,8 @@ d3.csv("https://raw.githubusercontent.com/BrandonToushan/Datasets/master/XYZ.csv
   var groups = d3.map(data, function(d){return(d.class)}).keys()
 
   //defining color palette (KoBo default)
-  var colors = ["#5e88d3","#fd6f96","#fbdd83","#8eeb55","#73d6ff","#fecb72","#7197f6","#56ecc7"]
-
+  var colors = ['#479FF6', '#6BCAD6', '#F86678', '#4B4E5E','#7B7F97','#ACAFC5','#D3D5E2','#EBEDF4']
+  
   //defining color scale
   var color = d3.scaleOrdinal()
     .domain(subgroups)
