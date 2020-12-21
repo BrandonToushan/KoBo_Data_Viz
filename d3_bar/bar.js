@@ -80,7 +80,7 @@ var Tooltip = d3.select("#bar_chart")
     Tooltip
     .style("opacity",0)
     d3.select(this)
-      .style("fill", "#2095f4")
+      .style("fill", '#479FF6')
       .style("opacity", 1)
   }
 
@@ -88,7 +88,7 @@ var Tooltip = d3.select("#bar_chart")
   svg.selectAll('.bar')
   .data(data)
   .enter().append('rect')
-  .style("fill","#2095f4")
+  .style("fill",'#479FF6')
   .on('mouseover',mouseover) //listener for mouseover event
   .on("mousemove",mousemove) //listener for mousemove event
   .on('mouseout',mouseout) //listener for mouseout event
