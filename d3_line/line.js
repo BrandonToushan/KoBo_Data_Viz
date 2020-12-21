@@ -78,7 +78,7 @@ svg.append("path")
     .data([data])
     .attr("class", "line")
     .attr("d", valueline)
-    .attr("stroke", "#2095f4")
+    .attr("stroke", '#479FF6')
     .attr("stroke-width", 2.5)
     .attr("fill","#EBEBEB");
 
@@ -116,9 +116,8 @@ var mousemove = function(d) {
     style("opacity",0)
     d3.select(this)
     .attr("r", 5)
-    .attr("stroke", "#2095f4")
-    .style("fill", "#2095f4")
-    }
+    .attr("stroke", '#479FF6)
+    .style("fill", '#479FF6')
 
 //adding dots
 var path = svg.selectAll("dot")
@@ -127,9 +126,9 @@ var path = svg.selectAll("dot")
     .attr("r", 5)
     .attr("cx", function (d) { return x(d.x);})
     .attr("cy", function (d) { return y(d.y);})
-    .attr("stroke", "#2095f4")
+    .attr("stroke", '#479FF6')
     .attr("stroke-width", 1.5)
-    .attr("fill", "#2095f4")
+    .attr("fill", '#479FF6')
     .on('mouseover',mouseover) //listener for mouseover event
     .on('mousemove',mousemove) //listener for mousemove event
     .on('mouseout', mouseout) //listener for mouseout event
